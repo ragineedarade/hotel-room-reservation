@@ -1,0 +1,109 @@
+body {
+  background-image: url("https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?cs=srgb&dl=pexels-pixabay-258154.jpg&fm=jpg");
+  background-size: cover; /* makes the image cover the full screen */
+  background-repeat: no-repeat; /* prevents tiling */
+  background-position: center; /* centers the image */
+  color: #f4f4f4;
+
+  display: grid;
+  justify-content: center; /* center horizontally */
+  align-items: center; /* fallback color if image fails to load */
+}
+
+.app {
+  padding: 10px;
+  min-height: 50vh;
+  border-radius: 12px;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* semi-transparent background for readability */
+}
+.room {
+  width: 35px;
+  height: 35px;
+  border-radius: 4px;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.rooms.button {
+  margin-left: 10px;
+  padding: 5px 8px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+}
+.available {
+  background: #4caf50;
+  color: white;
+}
+.occupied {
+  background: #f44336;
+  color: white;
+}
+.booked {
+  background: #2196f3;
+  color: white;
+}
+.floor {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 5px;
+}
+.grid {
+  margin-top: 10px;
+}
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px;
+}
+
+.room-input {
+  margin-left: 6px;
+  width: 60px;
+  padding: 4px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Common button style */
+.btn {
+  padding: 8px 10px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Individual button colors */
+.btn.book {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn.random {
+  background-color: #2196f3;
+  color: white;
+}
+
+.btn.reset {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Hover effect */
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
