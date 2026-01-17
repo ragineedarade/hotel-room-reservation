@@ -26,11 +26,11 @@ A modern **Hotel Room Reservation System** built using **Vite + TypeScript + Jav
 
 ### 🔹 Initial View (All Rooms Available)
 
-![Initial View](./assest/Hotel Room Reservation.mhtml)
+![Initial View](./assest/2.jpeg)
 
 ### 🔹 After Booking Rooms
 
-![Booking View](./assets/project-view-2.png)
+![Booking View](./assets/1.jpeg)
 
 ---
 
