@@ -30,7 +30,7 @@ A modern **Hotel Room Reservation System** built using **Vite + TypeScript + Jav
 
 ### 🔹 After Booking Rooms
 
-![Booking View](./assets/1.jpeg)
+![Booking View](./assest/1.jpeg)
 
 ---
 
